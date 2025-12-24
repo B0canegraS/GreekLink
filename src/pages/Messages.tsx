@@ -70,7 +70,7 @@ const Messages = () => {
         "w-72 card-premium p-3 space-y-2 shrink-0",
         selectedUserId ? "hidden md:block" : "block w-full md:w-72"
       )}>
-        <h2 className="font-semibold text-foreground px-2 py-1">Mensajes</h2>
+        <h2 className="font-semibold text-foreground px-2 py-1">Messages</h2>
         {loadingConversations ? (
           <div className="space-y-2">
             {[1, 2, 3].map(i => (
@@ -112,7 +112,7 @@ const Messages = () => {
                 <div className="flex-1 min-w-0">
                   <p className="font-medium text-foreground truncate">{conv.otherUser.name}</p>
                   <p className="text-sm text-muted-foreground truncate">
-                    {conv.lastMessage?.content || 'Inicia una conversación'}
+                    {conv.lastMessage?.content || 'Start a conversation'}
                   </p>
                 </div>
               </button>
@@ -120,7 +120,7 @@ const Messages = () => {
           </div>
         ) : (
           <div className="text-center py-8 text-muted-foreground text-sm">
-            No hay conversaciones. Conecta con miembros para empezar a chatear.
+            There are no conversations. Connect with members to start chatting.
           </div>
         )}
       </div>
@@ -195,7 +195,7 @@ const Messages = () => {
                 </>
               ) : (
                 <div className="text-center text-muted-foreground text-sm py-8">
-                  Envía un mensaje para comenzar la conversación
+                  Send a message to start the conversation
                 </div>
               )}
             </div>
@@ -203,7 +203,7 @@ const Messages = () => {
             {/* Message Input */}
             <div className="p-4 border-t border-border flex gap-2">
               <Input 
-                placeholder="Escribe un mensaje..." 
+                placeholder="Write a message..." 
                 value={message} 
                 onChange={e => setMessage(e.target.value)}
                 onKeyPress={handleKeyPress}
@@ -223,7 +223,7 @@ const Messages = () => {
           </>
         ) : (
           <div className="flex-1 flex items-center justify-center text-muted-foreground">
-            Selecciona una conversación para empezar a chatear
+            Select a conversation to start chatting
           </div>
         )}
       </div>
