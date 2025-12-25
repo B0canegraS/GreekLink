@@ -17,7 +17,7 @@ const Privacy = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">Ω</span>
             </div>
-            <span className="font-bold text-xl text-foreground">GreekLink</span>
+            <span className="font-bold text-xl text-foreground">Grikly</span>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ const Privacy = () => {
               <li>With your consent or at your direction</li>
               <li>With other users (based on your privacy settings)</li>
               <li>To comply with legal obligations</li>
-              <li>To protect the rights and safety of GreekLink and its users</li>
+              <li>To protect the rights and safety of Grikly and its users</li>
             </ul>
           </section>
 
@@ -102,7 +102,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-4">7. Children's Privacy</h2>
             <p className="text-muted-foreground leading-relaxed">
-              GreekLink is not intended for users under the age of 18. We do not knowingly collect 
+              Grikly is not intended for users under the age of 18. We do not knowingly collect 
               personal information from children under 18.
             </p>
           </section>
@@ -118,7 +118,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-4">9. Contact Us</h2>
             <p className="text-muted-foreground leading-relaxed">
-              If you have questions about this Privacy Policy, please contact us at privacy@greeklink.com.
+              If you have questions about this Privacy Policy, please contact us at privacy@grikly.com.
             </p>
           </section>
         </div>
