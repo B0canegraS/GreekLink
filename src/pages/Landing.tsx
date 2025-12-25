@@ -53,7 +53,7 @@ const Landing = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">Ω</span>
             </div>
-            <span className="font-bold text-xl text-foreground">GreekLink</span>
+            <span className="font-bold text-xl text-foreground">Grikly</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/login">
@@ -91,7 +91,7 @@ const Landing = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to="/register">
                 <Button size="lg" className="h-14 px-8 text-lg bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-lg hover:shadow-xl transition-all">
-                  Join GreekLink Free
+                  Join Grikly Free
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -131,7 +131,7 @@ const Landing = () => {
           >
             <h2 className="text-4xl font-bold text-foreground mb-4">Everything You Need</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              GreekLink provides all the tools to strengthen your Greek network and advance your career.
+              Grikly provides all the tools to strengthen your Greek network and advance your career.
             </p>
           </motion.div>
 
@@ -194,12 +194,12 @@ const Landing = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-sm">Ω</span>
               </div>
-              <span className="font-bold text-foreground">GreekLink</span>
+              <span className="font-bold text-foreground">Grikly</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <Link to="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>
               <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
-              <span>© {new Date().getFullYear()} GreekLink. All rights reserved.</span>
+              <span>© {new Date().getFullYear()} Grikly. All rights reserved.</span>
             </div>
           </div>
         </div>
